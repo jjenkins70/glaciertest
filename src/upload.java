@@ -11,7 +11,7 @@ import com.amazonaws.services.glacier.transfer.UploadResult;
 
 public class upload {
     public static String vaultName = "jeremiahtest1";
-    public static String archiveToUpload = "/home/jjenkins/node-v0.8.19.tar.gz";
+    public static String archiveToUpload = "/home/jjenkins/VirtualBox-4.2-4.2.4_81684_fedora16-1.x86_64.rpm";
     
     public static AmazonGlacierClient client;
     
